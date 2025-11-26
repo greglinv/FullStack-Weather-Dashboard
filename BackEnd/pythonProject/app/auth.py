@@ -25,7 +25,7 @@ def register():
     new_user = User(
         username=username,
         password=hashed_password.decode('utf-8'),
-        unit_preference="celsius"  # <-- new
+        unit_preference="celsius" 
     )
     db.session.add(new_user)
     db.session.commit()

@@ -7,7 +7,6 @@ const Settings = () => {
     <div className="container">
       <h2>Settings</h2>
       <PreferenceToggle />
-      {/* more settings here */}
     </div>
   );
 };

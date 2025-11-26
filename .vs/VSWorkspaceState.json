@@ -3,7 +3,6 @@
     "",
     "\\BackEnd",
     "\\BackEnd\\pythonProject",
-    "\\BackEnd\\pythonProject\\app",
     "\\BackEnd\\pythonProject\\migrations",
     "\\BackEnd\\pythonProject\\migrations\\versions",
     "\\FrontEnd",
@@ -12,6 +11,6 @@
     "\\FrontEnd\\weather-frontend\\src",
     "\\FrontEnd\\weather-frontend\\src\\components"
   ],
-  "SelectedNode": "\\BackEnd\\pythonProject\\app\\models.py",
+  "SelectedNode": "\\BackEnd\\pythonProject\\migrations\\env.py",
   "PreviewInSolutionExplorer": false
 }

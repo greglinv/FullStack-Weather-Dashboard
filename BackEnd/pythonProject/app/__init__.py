@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
-from flask_migrate import Migrate  # <-- NEW IMPORT
+from flask_migrate import Migrate
 from dotenv import load_dotenv
 from .models import db
 from .favorites import favorites_bp

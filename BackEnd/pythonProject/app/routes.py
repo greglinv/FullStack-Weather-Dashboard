@@ -13,7 +13,7 @@ def log_request():
     print(f"Request received: {request.url}")
 
 @weather_routes.route("/weather", methods=["GET"])
-@jwt_required(optional=True)  # <-- ALLOWS logged in or anon
+@jwt_required(optional=True)  #Allows logged in or anon
 def get_weather():
     current_user = get_jwt_identity()
     city = request.args.get("city", default="London")

@@ -25,6 +25,6 @@ def test_get_weather_default_city(client):
     response = client.get("/weather")
     assert response.status_code == 200
     data = response.get_json()
-    assert "city" in data and data["city"] == "London"  # Default city
+    assert "city" in data and data["city"] == "London" 
     assert "temperature_celsius" in data
     assert "weather" in data
