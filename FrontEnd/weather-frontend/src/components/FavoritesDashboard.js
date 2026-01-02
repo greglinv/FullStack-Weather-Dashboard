@@ -1,4 +1,4 @@
-﻿// src/components/FavoritesDashboard.js
+// src/components/FavoritesDashboard.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { getToken } from '../auth';

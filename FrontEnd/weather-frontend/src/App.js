@@ -1,6 +1,5 @@
 // src/App.js
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { UserProvider } from "./context/UserContext";
@@ -15,7 +14,6 @@ import Favorites from "./components/Favorites";
 
 import "./App.css";
 
-ReactDOM.render(<App />, document.getElementById("root"));
 
 function App() {
     const [selectedCity, setSelectedCity] = useState("");
@@ -68,7 +66,7 @@ function App() {
                     </main>
 
                     <footer className="App-footer">
-                        <p>© 2024 Gregory's Weather App</p>
+                        <p>Â© 2025 Gregory's Weather App</p>
                     </footer>
                 </div>
             </Router>
