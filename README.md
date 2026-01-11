@@ -32,16 +32,21 @@ A comprehensive weather monitoring application that provides real-time data and 
    ```bash
    cd Backend/pythonProject
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 3. Run the Flask server:
+   ```bash
    python main.py
 
 ### Frontend Setup
 1. Navigate to the frontend directory:
+   ```bash
    cd FrontEnd/weather-frontend
 2. Install dependencies:
+   ```bash
    npm install
 3. Start the React application:
+   ```bash
    npm start
 
 **Requirements**
